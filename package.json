@@ -1,0 +1,22 @@
+{
+  "name": "geojson-to-graph",
+  "version": "0.0.1",
+  "description": "Converts GeoJson street data to a graph",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pleeko/geojson-to-graph.git"
+  },
+  "author": "Peter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pleeko/geojson-to-graph/issues"
+  },
+  "homepage": "https://github.com/pleeko/geojson-to-graph#readme",
+  "dependencies": {
+    "graphulous": "0.0.1"
+  }
+}
