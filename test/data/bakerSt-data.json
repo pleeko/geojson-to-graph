@@ -1,0 +1,258 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-04-19T16:34:02Z",
+  "features": [
+   
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18871910",
+        "highway": "residential",
+        "name": "Everett Street",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Everett",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.871287,
+            43.20401
+          ],
+          [
+            -70.871623,
+            43.203486
+          ],
+          [
+            -70.87195,
+            43.203076
+          ],
+          [
+            -70.872128,
+            43.20282
+          ],
+          [
+            -70.872181,
+            43.202764
+          ],
+          [
+            -70.872223,
+            43.202735
+          ]
+        ]
+      },
+      "id": "way/18871910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18871027",
+        "highway": "residential",
+        "maxspeed": "30 mph",
+        "name": "Baker Street",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Baker",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8700465,
+            43.2034528
+          ],
+          [
+            -70.8701248,
+            43.2034905
+          ],
+          [
+            -70.8707827,
+            43.2037679
+          ],
+          [
+            -70.871287,
+            43.20401
+          ],
+          [
+            -70.871446,
+            43.204079
+          ],
+          [
+            -70.871786,
+            43.204217
+          ],
+          [
+            -70.872037,
+            43.204331
+          ],
+          [
+            -70.87212,
+            43.204364
+          ],
+          [
+            -70.872212,
+            43.204392
+          ],
+          [
+            -70.872313,
+            43.204407
+          ],
+          [
+            -70.872407,
+            43.204416
+          ],
+          [
+            -70.8731787,
+            43.2043696
+          ]
+        ]
+      },
+      "id": "way/18871027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18872424",
+        "highway": "residential",
+        "maxspeed": "30 mph",
+        "name": "Hill Street",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Hill",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.869555,
+            43.204065
+          ],
+          [
+            -70.871558,
+            43.204881
+          ],
+          [
+            -70.871726,
+            43.204937
+          ],
+          [
+            -70.872565,
+            43.205172
+          ],
+          [
+            -70.872778,
+            43.205214
+          ],
+          [
+            -70.873067,
+            43.205242
+          ],
+          [
+            -70.873229,
+            43.205259
+          ],
+          [
+            -70.873606,
+            43.205287
+          ],
+          [
+            -70.8742211,
+            43.2052968
+          ],
+          [
+            -70.8748276,
+            43.2053163
+          ],
+          [
+            -70.8754539,
+            43.2053413
+          ]
+        ]
+      },
+      "id": "way/18872424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18872604",
+        "highway": "residential",
+        "name": "Freeman Court",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Freeman",
+        "tiger:name_type": "Ct",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.871623,
+            43.203486
+          ],
+          [
+            -70.871077,
+            43.203282
+          ]
+        ]
+      },
+      "id": "way/18872604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18873229",
+        "highway": "residential",
+        "name": "East Concord Street",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Concord",
+        "tiger:name_direction_prefix": "E",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.873384,
+            43.202765
+          ],
+          [
+            -70.8731787,
+            43.2043696
+          ],
+          [
+            -70.873067,
+            43.205242
+          ]
+        ]
+      },
+      "id": "way/18873229"
+    }
+  ]
+}

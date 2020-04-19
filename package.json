@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/pleeko/geojson-to-graph#readme",
   "dependencies": {
-    "graphulous": "0.0.1"
+    "@turf/line-intersect": "^6.0.2",
+    "@turf/turf": "^5.1.6",
+    "graphulous": "0.0.1",
+    "turf-point": "^2.0.1"
   }
 }

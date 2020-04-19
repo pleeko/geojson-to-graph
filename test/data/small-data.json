@@ -1,0 +1,243 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-04-14T00:54:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24119157",
+        "highway": "residential",
+        "name": "Harry Lane",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Nassau, NY",
+        "tiger:name_base": "Harry",
+        "tiger:name_type": "Ln",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "11566",
+        "tiger:zip_right": "11566"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.556431,
+            40.68849
+          ],
+          [
+            -73.55647,
+            40.687984
+          ],
+          [
+            -73.556459,
+            40.687863
+          ],
+          [
+            -73.55642,
+            40.6873
+          ],
+          [
+            -73.556458,
+            40.687229
+          ],
+          [
+            -73.556517,
+            40.687191
+          ],
+          [
+            -73.557021,
+            40.687034
+          ],
+          [
+            -73.557129,
+            40.68702
+          ],
+          [
+            -73.557197,
+            40.687034
+          ],
+          [
+            -73.557259,
+            40.68707
+          ],
+          [
+            -73.557298,
+            40.687114
+          ],
+          [
+            -73.557386,
+            40.687367
+          ],
+          [
+            -73.557416,
+            40.687485
+          ]
+        ]
+      },
+      "id": "way/24119157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24125292",
+        "highway": "residential",
+        "name": "Earl Drive",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Nassau, NY",
+        "tiger:name_base": "Earl",
+        "tiger:name_type": "Dr",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "11566",
+        "tiger:zip_right": "11566"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.557416,
+            40.687485
+          ],
+          [
+            -73.557449,
+            40.687757
+          ],
+          [
+            -73.557377,
+            40.688207
+          ],
+          [
+            -73.557341,
+            40.688284
+          ],
+          [
+            -73.557312,
+            40.688319
+          ],
+          [
+            -73.557236,
+            40.688363
+          ],
+          [
+            -73.556431,
+            40.68849
+          ],
+          [
+            -73.556354,
+            40.68859
+          ],
+          [
+            -73.556325,
+            40.688598
+          ],
+          [
+            -73.555388,
+            40.688529
+          ],
+          [
+            -73.554984,
+            40.688533
+          ],
+          [
+            -73.554508,
+            40.68858
+          ],
+          [
+            -73.554192,
+            40.688589
+          ],
+          [
+            -73.554118,
+            40.688615
+          ],
+          [
+            -73.553901,
+            40.688743
+          ],
+          [
+            -73.55367,
+            40.68886
+          ],
+          [
+            -73.553543,
+            40.688947
+          ],
+          [
+            -73.553463,
+            40.689021
+          ],
+          [
+            -73.553354,
+            40.689163
+          ],
+          [
+            -73.553294,
+            40.689309
+          ],
+          [
+            -73.553283,
+            40.689397
+          ],
+          [
+            -73.553299,
+            40.689543
+          ]
+        ]
+      },
+      "id": "way/24125292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24126381",
+        "highway": "residential",
+        "name": "Sydney Drive",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Nassau, NY",
+        "tiger:name_base": "Sydney",
+        "tiger:name_type": "Dr",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "11566",
+        "tiger:zip_right": "11566"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.556459,
+            40.687863
+          ],
+          [
+            -73.556411,
+            40.687865
+          ],
+          [
+            -73.555984,
+            40.687886
+          ],
+          [
+            -73.555847,
+            40.687875
+          ],
+          [
+            -73.555522,
+            40.687862
+          ],
+          [
+            -73.555099,
+            40.687845
+          ],
+          [
+            -73.554982,
+            40.687847
+          ],
+          [
+            -73.554518,
+            40.687872
+          ]
+        ]
+      },
+      "id": "way/24126381"
+    }
+  ]
+}

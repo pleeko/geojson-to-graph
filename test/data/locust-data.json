@@ -1,0 +1,2633 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-04-19T16:46:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18867736",
+        "highway": "residential",
+        "name": "Spring Street",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Spring",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.874105,
+            43.188733
+          ],
+          [
+            -70.8757655,
+            43.1887715
+          ]
+        ]
+      },
+      "id": "way/18867736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18867962",
+        "highway": "unclassified",
+        "name": "Locust Street",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.875487,
+            43.1935148
+          ],
+          [
+            -70.875453,
+            43.1938526
+          ],
+          [
+            -70.8754476,
+            43.193906
+          ],
+          [
+            -70.8754411,
+            43.1940006
+          ],
+          [
+            -70.8754322,
+            43.1941315
+          ],
+          [
+            -70.8754123,
+            43.1944222
+          ],
+          [
+            -70.8753961,
+            43.1949404
+          ]
+        ]
+      },
+      "id": "way/18867962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18868459",
+        "highway": "residential",
+        "name": "Atkinson Street",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Atkinson",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.877549,
+            43.194599
+          ],
+          [
+            -70.8775753,
+            43.194343
+          ],
+          [
+            -70.877612,
+            43.193985
+          ],
+          [
+            -70.877649,
+            43.1936857
+          ],
+          [
+            -70.877801,
+            43.192002
+          ],
+          [
+            -70.877844,
+            43.191646
+          ],
+          [
+            -70.8778761,
+            43.1914443
+          ],
+          [
+            -70.877972,
+            43.190796
+          ],
+          [
+            -70.878015,
+            43.190582
+          ]
+        ]
+      },
+      "id": "way/18868459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18868583",
+        "highway": "residential",
+        "name": "Hamilton Street",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Hamilton",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.877296,
+            43.188409
+          ],
+          [
+            -70.879147,
+            43.188487
+          ],
+          [
+            -70.87949,
+            43.188514
+          ]
+        ]
+      },
+      "id": "way/18868583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18868734",
+        "highway": "residential",
+        "name": "Trakey Street",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Trakey",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8739167,
+            43.1868907
+          ],
+          [
+            -70.875875,
+            43.1867489
+          ]
+        ]
+      },
+      "id": "way/18868734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18868880",
+        "highway": "primary",
+        "maxspeed": "30 mph",
+        "name": "Stark Avenue",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Stark",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.87352,
+            43.1849228
+          ],
+          [
+            -70.873382,
+            43.184592
+          ],
+          [
+            -70.873271,
+            43.184209
+          ],
+          [
+            -70.8732425,
+            43.1841296
+          ],
+          [
+            -70.873216,
+            43.184056
+          ],
+          [
+            -70.8731504,
+            43.1839295
+          ],
+          [
+            -70.8730194,
+            43.1836769
+          ],
+          [
+            -70.872731,
+            43.183166
+          ],
+          [
+            -70.872361,
+            43.182622
+          ],
+          [
+            -70.87227,
+            43.182508
+          ],
+          [
+            -70.872165,
+            43.182389
+          ],
+          [
+            -70.872052,
+            43.18227
+          ],
+          [
+            -70.871947,
+            43.182148
+          ],
+          [
+            -70.871607,
+            43.181808
+          ],
+          [
+            -70.87144,
+            43.18162
+          ],
+          [
+            -70.870879,
+            43.181037
+          ],
+          [
+            -70.8704051,
+            43.1805774
+          ],
+          [
+            -70.870031,
+            43.1801649
+          ],
+          [
+            -70.8697377,
+            43.1798529
+          ],
+          [
+            -70.8695876,
+            43.1796698
+          ],
+          [
+            -70.8694587,
+            43.1794788
+          ],
+          [
+            -70.8693303,
+            43.1792781
+          ],
+          [
+            -70.869277,
+            43.1791888
+          ],
+          [
+            -70.8685668,
+            43.178022
+          ],
+          [
+            -70.8684791,
+            43.1778882
+          ],
+          [
+            -70.8681863,
+            43.1773923
+          ],
+          [
+            -70.868105,
+            43.177259
+          ],
+          [
+            -70.867967,
+            43.177085
+          ],
+          [
+            -70.8678489,
+            43.1769485
+          ],
+          [
+            -70.867839,
+            43.176937
+          ],
+          [
+            -70.867667,
+            43.17677
+          ]
+        ]
+      },
+      "id": "way/18868880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18869020",
+        "highway": "residential",
+        "name": "George Street",
+        "surface": "paved",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "George",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8730079,
+            43.1918774
+          ],
+          [
+            -70.8729232,
+            43.1917823
+          ],
+          [
+            -70.8728778,
+            43.1916836
+          ],
+          [
+            -70.8728343,
+            43.1915943
+          ],
+          [
+            -70.8727825,
+            43.1915558
+          ],
+          [
+            -70.8727369,
+            43.1915439
+          ],
+          [
+            -70.8726913,
+            43.1915418
+          ],
+          [
+            -70.8726068,
+            43.1915635
+          ],
+          [
+            -70.8725305,
+            43.1915981
+          ],
+          [
+            -70.8724771,
+            43.1916308
+          ],
+          [
+            -70.8724398,
+            43.1916586
+          ],
+          [
+            -70.8723967,
+            43.1917093
+          ],
+          [
+            -70.8723638,
+            43.1917603
+          ],
+          [
+            -70.8719281,
+            43.1924654
+          ],
+          [
+            -70.8718869,
+            43.1925753
+          ],
+          [
+            -70.8718467,
+            43.1927784
+          ],
+          [
+            -70.8717989,
+            43.193029
+          ]
+        ]
+      },
+      "id": "way/18869020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18869066",
+        "highway": "residential",
+        "name": "Angle Street",
+        "surface": "paved",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Angle",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8730079,
+            43.1918774
+          ],
+          [
+            -70.8743248,
+            43.191931
+          ]
+        ]
+      },
+      "id": "way/18869066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18869214",
+        "highway": "residential",
+        "name": "Union Street",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Union",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.874091,
+            43.189021
+          ],
+          [
+            -70.872708,
+            43.1891263
+          ],
+          [
+            -70.8720559,
+            43.1891863
+          ],
+          [
+            -70.8712718,
+            43.1892585
+          ],
+          [
+            -70.8710575,
+            43.1892783
+          ],
+          [
+            -70.8708933,
+            43.1892963
+          ],
+          [
+            -70.8707361,
+            43.1892988
+          ],
+          [
+            -70.870584,
+            43.189281
+          ],
+          [
+            -70.870454,
+            43.189257
+          ],
+          [
+            -70.870357,
+            43.189233
+          ],
+          [
+            -70.870176,
+            43.189198
+          ],
+          [
+            -70.869494,
+            43.189128
+          ],
+          [
+            -70.8682288,
+            43.1889692
+          ]
+        ]
+      },
+      "id": "way/18869214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18869266",
+        "highway": "residential",
+        "name": "Fisher Street",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Fisher",
+        "tiger:name_type": "St",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8758574,
+            43.1871453
+          ],
+          [
+            -70.877455,
+            43.187107
+          ],
+          [
+            -70.8789836,
+            43.1871791
+          ],
+          [
+            -70.879711,
+            43.1872252
+          ],
+          [
+            -70.8799008,
+            43.1872277
+          ],
+          [
+            -70.8799482,
+            43.1872282
+          ],
+          [
+            -70.8800937,
+            43.1872298
+          ],
+          [
+            -70.880435,
+            43.187214
+          ],
+          [
+            -70.881021,
+            43.187177
+          ],
+          [
+            -70.881363,
+            43.187163
+          ],
+          [
+            -70.8815223,
+            43.1871607
+          ]
+        ]
+      },
+      "id": "way/18869266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18869351",
+        "highway": "residential",
+        "name": "Summer Street",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Summer",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.874072,
+            43.189368
+          ],
+          [
+            -70.8757273,
+            43.1893941
+          ],
+          [
+            -70.8771586,
+            43.1894201
+          ],
+          [
+            -70.8776409,
+            43.189444
+          ],
+          [
+            -70.8785712,
+            43.18949
+          ],
+          [
+            -70.8789186,
+            43.1895071
+          ],
+          [
+            -70.8793806,
+            43.18953
+          ]
+        ]
+      },
+      "id": "way/18869351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18869419",
+        "highway": "residential",
+        "name": "South Pine Street",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Pine",
+        "tiger:name_direction_prefix": "S",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.874109,
+            43.188573
+          ],
+          [
+            -70.873716,
+            43.188518
+          ],
+          [
+            -70.873613,
+            43.188507
+          ],
+          [
+            -70.873417,
+            43.188497
+          ],
+          [
+            -70.873215,
+            43.188482
+          ],
+          [
+            -70.873018,
+            43.188452
+          ],
+          [
+            -70.872831,
+            43.188401
+          ],
+          [
+            -70.872565,
+            43.188308
+          ],
+          [
+            -70.872017,
+            43.188141
+          ],
+          [
+            -70.871289,
+            43.187908
+          ]
+        ]
+      },
+      "id": "way/18869419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18869627",
+        "highway": "residential",
+        "name": "Folsom Street",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Folsom",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.879006,
+            43.193139
+          ],
+          [
+            -70.8796953,
+            43.1931859
+          ],
+          [
+            -70.880145,
+            43.1932165
+          ],
+          [
+            -70.8807756,
+            43.1932595
+          ]
+        ]
+      },
+      "id": "way/18869627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18869666",
+        "highway": "residential",
+        "name": "Church Street",
+        "surface": "paved",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Church",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8733921,
+            43.1911607
+          ],
+          [
+            -70.873731,
+            43.191305
+          ],
+          [
+            -70.87408,
+            43.191438
+          ],
+          [
+            -70.87427,
+            43.191492
+          ],
+          [
+            -70.874404,
+            43.191519
+          ],
+          [
+            -70.874646,
+            43.191542
+          ],
+          [
+            -70.8755916,
+            43.191569
+          ]
+        ]
+      },
+      "id": "way/18869666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18869892",
+        "highway": "residential",
+        "name": "Academy Street",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Academy",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.87427,
+            43.191492
+          ],
+          [
+            -70.8743058,
+            43.1917786
+          ],
+          [
+            -70.8743248,
+            43.191931
+          ],
+          [
+            -70.874398,
+            43.192518
+          ]
+        ]
+      },
+      "id": "way/18869892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18870061",
+        "highway": "residential",
+        "name": "Monroe Street",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Monroe",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8759935,
+            43.1849114
+          ],
+          [
+            -70.8753977,
+            43.1849073
+          ],
+          [
+            -70.8749005,
+            43.1849216
+          ],
+          [
+            -70.8746136,
+            43.1849567
+          ],
+          [
+            -70.8744602,
+            43.1849887
+          ],
+          [
+            -70.8743194,
+            43.1849964
+          ]
+        ]
+      },
+      "id": "way/18870061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18870170",
+        "access": "yes",
+        "highway": "residential",
+        "horse": "yes",
+        "lanes": "2",
+        "maxspeed": "30 mph",
+        "name": "Court Street",
+        "oneway": "no",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Court",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.873474,
+            43.191048
+          ],
+          [
+            -70.873374,
+            43.190956
+          ],
+          [
+            -70.8733,
+            43.190888
+          ],
+          [
+            -70.873243,
+            43.19083
+          ],
+          [
+            -70.873086,
+            43.190632
+          ],
+          [
+            -70.872799,
+            43.190214
+          ],
+          [
+            -70.872659,
+            43.190018
+          ],
+          [
+            -70.872451,
+            43.189739
+          ],
+          [
+            -70.87224,
+            43.189437
+          ],
+          [
+            -70.8721,
+            43.189252
+          ],
+          [
+            -70.8720559,
+            43.1891863
+          ],
+          [
+            -70.871859,
+            43.188915
+          ],
+          [
+            -70.871765,
+            43.188802
+          ],
+          [
+            -70.871703,
+            43.188746
+          ],
+          [
+            -70.871624,
+            43.188695
+          ],
+          [
+            -70.871448,
+            43.188612
+          ],
+          [
+            -70.870963,
+            43.188421
+          ],
+          [
+            -70.870044,
+            43.188116
+          ],
+          [
+            -70.869292,
+            43.187851
+          ],
+          [
+            -70.86828,
+            43.187505
+          ],
+          [
+            -70.8669575,
+            43.1870485
+          ],
+          [
+            -70.866882,
+            43.1870219
+          ],
+          [
+            -70.8660496,
+            43.1867284
+          ],
+          [
+            -70.8653838,
+            43.1865
+          ],
+          [
+            -70.86465,
+            43.186238
+          ],
+          [
+            -70.864223,
+            43.186078
+          ],
+          [
+            -70.8639424,
+            43.1859776
+          ],
+          [
+            -70.863689,
+            43.185887
+          ],
+          [
+            -70.863513,
+            43.185817
+          ],
+          [
+            -70.863335,
+            43.185753
+          ],
+          [
+            -70.862994,
+            43.185616
+          ],
+          [
+            -70.862746,
+            43.185494
+          ],
+          [
+            -70.862101,
+            43.184892
+          ],
+          [
+            -70.861925,
+            43.18472
+          ]
+        ]
+      },
+      "id": "way/18870170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18871149",
+        "highway": "residential",
+        "name": "Hanson Street",
+        "surface": "paved",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Hanson",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8733274,
+            43.1912569
+          ],
+          [
+            -70.873225,
+            43.1912219
+          ],
+          [
+            -70.8731514,
+            43.1912092
+          ],
+          [
+            -70.8730778,
+            43.1912099
+          ],
+          [
+            -70.8726053,
+            43.1912787
+          ],
+          [
+            -70.8725005,
+            43.1912883
+          ],
+          [
+            -70.8723895,
+            43.1912934
+          ],
+          [
+            -70.8721731,
+            43.1913162
+          ],
+          [
+            -70.8719533,
+            43.1913655
+          ],
+          [
+            -70.871752,
+            43.1914252
+          ],
+          [
+            -70.8715827,
+            43.1915119
+          ],
+          [
+            -70.8713593,
+            43.1916461
+          ],
+          [
+            -70.8711017,
+            43.1918392
+          ],
+          [
+            -70.8709488,
+            43.1919896
+          ],
+          [
+            -70.8707997,
+            43.1921783
+          ],
+          [
+            -70.870485,
+            43.1925688
+          ],
+          [
+            -70.8704177,
+            43.1927053
+          ]
+        ]
+      },
+      "id": "way/18871149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18871547",
+        "highway": "residential",
+        "name": "East Watson Street",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "East Watson",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8735008,
+            43.1845792
+          ],
+          [
+            -70.873382,
+            43.184592
+          ],
+          [
+            -70.872796,
+            43.184645
+          ],
+          [
+            -70.872479,
+            43.184654
+          ],
+          [
+            -70.872283,
+            43.184653
+          ],
+          [
+            -70.872087,
+            43.184642
+          ],
+          [
+            -70.871891,
+            43.184626
+          ],
+          [
+            -70.871702,
+            43.184604
+          ],
+          [
+            -70.871508,
+            43.184573
+          ],
+          [
+            -70.871317,
+            43.184529
+          ],
+          [
+            -70.8708913,
+            43.1843471
+          ],
+          [
+            -70.870694,
+            43.1842695
+          ],
+          [
+            -70.8705655,
+            43.1842395
+          ],
+          [
+            -70.8705034,
+            43.1842409
+          ],
+          [
+            -70.8704254,
+            43.1842458
+          ],
+          [
+            -70.8701433,
+            43.1842882
+          ],
+          [
+            -70.8699954,
+            43.1843169
+          ],
+          [
+            -70.8698124,
+            43.1843602
+          ],
+          [
+            -70.8695822,
+            43.1844109
+          ],
+          [
+            -70.8690586,
+            43.184513
+          ],
+          [
+            -70.868718,
+            43.184579
+          ],
+          [
+            -70.8682223,
+            43.1846702
+          ],
+          [
+            -70.8680273,
+            43.1847141
+          ],
+          [
+            -70.8678511,
+            43.1847724
+          ],
+          [
+            -70.8676878,
+            43.1848384
+          ],
+          [
+            -70.8674631,
+            43.1849665
+          ],
+          [
+            -70.8673495,
+            43.1850489
+          ],
+          [
+            -70.8661831,
+            43.1858948
+          ],
+          [
+            -70.8659671,
+            43.1860463
+          ],
+          [
+            -70.8657334,
+            43.1862167
+          ],
+          [
+            -70.8654445,
+            43.1864245
+          ],
+          [
+            -70.8653838,
+            43.1865
+          ]
+        ]
+      },
+      "id": "way/18871547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18871573",
+        "highway": "residential",
+        "name": "Saint Thomas Street",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "St Thomas",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.875797,
+            43.193862
+          ],
+          [
+            -70.8759034,
+            43.193805
+          ],
+          [
+            -70.8760378,
+            43.1937549
+          ],
+          [
+            -70.8766196,
+            43.1936648
+          ],
+          [
+            -70.876807,
+            43.193648
+          ],
+          [
+            -70.877649,
+            43.1936857
+          ],
+          [
+            -70.878949,
+            43.193744
+          ]
+        ]
+      },
+      "id": "way/18871573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18871575",
+        "highway": "unclassified",
+        "name": "Saint Thomas Street",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "St Thomas",
+        "tiger:name_type": "St"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.874655,
+            43.194083
+          ],
+          [
+            -70.8754476,
+            43.193906
+          ]
+        ]
+      },
+      "id": "way/18871575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18871912",
+        "highway": "residential",
+        "name": "Kirkland Street",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Kirkland",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.873391,
+            43.192791
+          ],
+          [
+            -70.874398,
+            43.192518
+          ],
+          [
+            -70.8755595,
+            43.1921994
+          ]
+        ]
+      },
+      "id": "way/18871912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18872032",
+        "highway": "residential",
+        "name": "Belknap Street",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Belknap",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.878895,
+            43.194402
+          ],
+          [
+            -70.8789013,
+            43.1943251
+          ],
+          [
+            -70.878949,
+            43.193744
+          ],
+          [
+            -70.879006,
+            43.193139
+          ],
+          [
+            -70.879103,
+            43.192233
+          ],
+          [
+            -70.879122,
+            43.192092
+          ],
+          [
+            -70.8791325,
+            43.191906
+          ],
+          [
+            -70.879146,
+            43.191665
+          ],
+          [
+            -70.879157,
+            43.191559
+          ],
+          [
+            -70.879245,
+            43.19072
+          ],
+          [
+            -70.8792515,
+            43.1906628
+          ],
+          [
+            -70.8793806,
+            43.18953
+          ],
+          [
+            -70.879483,
+            43.188631
+          ],
+          [
+            -70.87949,
+            43.188514
+          ],
+          [
+            -70.879465,
+            43.188397
+          ],
+          [
+            -70.879418,
+            43.188259
+          ],
+          [
+            -70.879364,
+            43.188123
+          ],
+          [
+            -70.879035,
+            43.187371
+          ],
+          [
+            -70.8789836,
+            43.1871791
+          ]
+        ]
+      },
+      "id": "way/18872032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18872996",
+        "highway": "residential",
+        "name": "Nelson Street",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Nelson",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8756169,
+            43.191242
+          ],
+          [
+            -70.8778761,
+            43.1914443
+          ],
+          [
+            -70.879157,
+            43.191559
+          ]
+        ]
+      },
+      "id": "way/18872996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18873525",
+        "highway": "unclassified",
+        "name": "Williams Street",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Williams",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.873972,
+            43.193333
+          ],
+          [
+            -70.8736775,
+            43.1941859
+          ]
+        ]
+      },
+      "id": "way/18873525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18873540",
+        "highway": "secondary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lanes:forward": "1",
+        "maxspeed": "30 mph",
+        "name": "Silver Street",
+        "oneway": "no",
+        "ref": "NH 9;NH 155",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Silver",
+        "tiger:name_base_1": "State Route 9",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820",
+        "turn:lanes:backward": "left|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.873887,
+            43.190596
+          ],
+          [
+            -70.874168,
+            43.190563
+          ],
+          [
+            -70.874365,
+            43.190552
+          ],
+          [
+            -70.8749809,
+            43.1904959
+          ]
+        ]
+      },
+      "id": "way/18873540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18874162",
+        "highway": "residential",
+        "name": "Fern Court",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Fern",
+        "tiger:name_type": "Ct",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8796953,
+            43.1931859
+          ],
+          [
+            -70.879681,
+            43.193411
+          ],
+          [
+            -70.879705,
+            43.193487
+          ],
+          [
+            -70.879775,
+            43.193535
+          ]
+        ]
+      },
+      "id": "way/18874162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/18874286",
+        "highway": "residential",
+        "name": "Elm Street",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Elm",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.877004,
+            43.190457
+          ],
+          [
+            -70.877137,
+            43.18973
+          ],
+          [
+            -70.8771586,
+            43.1894201
+          ],
+          [
+            -70.877276,
+            43.18866
+          ],
+          [
+            -70.877296,
+            43.188409
+          ],
+          [
+            -70.877322,
+            43.188082
+          ],
+          [
+            -70.877403,
+            43.187514
+          ],
+          [
+            -70.877419,
+            43.187371
+          ],
+          [
+            -70.877442,
+            43.187226
+          ],
+          [
+            -70.877455,
+            43.187107
+          ]
+        ]
+      },
+      "id": "way/18874286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29661676",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lanes:forward": "1",
+        "maxspeed": "30 mph",
+        "name": "Central Avenue",
+        "ref": "NH 4;NH 9;NH 108",
+        "surface": "asphalt",
+        "turn:lanes:backward": "none|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.873887,
+            43.190596
+          ],
+          [
+            -70.873836,
+            43.190659
+          ],
+          [
+            -70.8736354,
+            43.1908677
+          ]
+        ]
+      },
+      "id": "way/29661676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/195507324",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30 mph",
+        "name": "Locust Street",
+        "oneway": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.875487,
+            43.1935148
+          ],
+          [
+            -70.8755057,
+            43.193237
+          ],
+          [
+            -70.8755243,
+            43.1928785
+          ],
+          [
+            -70.8755595,
+            43.1921994
+          ],
+          [
+            -70.8755916,
+            43.191569
+          ],
+          [
+            -70.8756169,
+            43.191242
+          ],
+          [
+            -70.8756411,
+            43.1909786
+          ],
+          [
+            -70.8756723,
+            43.1905277
+          ],
+          [
+            -70.8756762,
+            43.1904349
+          ],
+          [
+            -70.875676,
+            43.1903417
+          ],
+          [
+            -70.8756934,
+            43.1898916
+          ],
+          [
+            -70.8757,
+            43.1897563
+          ],
+          [
+            -70.8757273,
+            43.1893941
+          ],
+          [
+            -70.8757655,
+            43.1887715
+          ],
+          [
+            -70.8757751,
+            43.1885801
+          ],
+          [
+            -70.8757932,
+            43.1882008
+          ],
+          [
+            -70.8758263,
+            43.1876208
+          ],
+          [
+            -70.8758574,
+            43.1871453
+          ],
+          [
+            -70.875875,
+            43.1867489
+          ],
+          [
+            -70.8759341,
+            43.1858494
+          ],
+          [
+            -70.8759514,
+            43.1855092
+          ],
+          [
+            -70.875953,
+            43.1854775
+          ],
+          [
+            -70.8759884,
+            43.1849665
+          ],
+          [
+            -70.8759935,
+            43.1849114
+          ],
+          [
+            -70.875997,
+            43.1848521
+          ],
+          [
+            -70.876019,
+            43.1845305
+          ],
+          [
+            -70.8760324,
+            43.1843351
+          ],
+          [
+            -70.876048,
+            43.1841076
+          ],
+          [
+            -70.8760778,
+            43.1836725
+          ],
+          [
+            -70.876104,
+            43.1832902
+          ],
+          [
+            -70.8761226,
+            43.1830296
+          ],
+          [
+            -70.8761294,
+            43.1828779
+          ],
+          [
+            -70.8761335,
+            43.1827851
+          ],
+          [
+            -70.876143,
+            43.1826156
+          ],
+          [
+            -70.8761495,
+            43.1824992
+          ],
+          [
+            -70.8761605,
+            43.1822197
+          ],
+          [
+            -70.8760751,
+            43.1821534
+          ]
+        ]
+      },
+      "id": "way/195507324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/243823311",
+        "access": "yes",
+        "highway": "unclassified",
+        "horse": "yes",
+        "maxspeed": "30 mph",
+        "name": "Henry Law Avenue",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Henry Law",
+        "tiger:name_type": "Ave",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.874597,
+            43.1950276
+          ],
+          [
+            -70.8743773,
+            43.1948501
+          ],
+          [
+            -70.8742171,
+            43.1946924
+          ],
+          [
+            -70.8739119,
+            43.1944059
+          ],
+          [
+            -70.8736775,
+            43.1941859
+          ],
+          [
+            -70.873401,
+            43.193921
+          ],
+          [
+            -70.8733163,
+            43.1938474
+          ],
+          [
+            -70.8732475,
+            43.1937876
+          ],
+          [
+            -70.8731629,
+            43.1937014
+          ],
+          [
+            -70.872931,
+            43.193465
+          ],
+          [
+            -70.872799,
+            43.193354
+          ],
+          [
+            -70.872725,
+            43.193303
+          ],
+          [
+            -70.872646,
+            43.193258
+          ],
+          [
+            -70.872468,
+            43.193181
+          ],
+          [
+            -70.872367,
+            43.1931449
+          ],
+          [
+            -70.8722844,
+            43.1931188
+          ],
+          [
+            -70.8721027,
+            43.1930769
+          ],
+          [
+            -70.8717989,
+            43.193029
+          ]
+        ]
+      },
+      "id": "way/243823311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/245015102",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30 mph",
+        "name": "Chestnut Street",
+        "oneway": "no",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Chestnut",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8764345,
+            43.1947756
+          ],
+          [
+            -70.8764282,
+            43.1946648
+          ],
+          [
+            -70.8763566,
+            43.1943531
+          ],
+          [
+            -70.876328,
+            43.194213
+          ],
+          [
+            -70.8763181,
+            43.1941972
+          ],
+          [
+            -70.876288,
+            43.194149
+          ],
+          [
+            -70.87623,
+            43.194089
+          ],
+          [
+            -70.8762055,
+            43.1940716
+          ],
+          [
+            -70.876157,
+            43.194037
+          ],
+          [
+            -70.8761335,
+            43.1940232
+          ],
+          [
+            -70.87608,
+            43.193992
+          ],
+          [
+            -70.875797,
+            43.193862
+          ],
+          [
+            -70.875748,
+            43.193833
+          ],
+          [
+            -70.8757024,
+            43.1937945
+          ],
+          [
+            -70.875678,
+            43.193774
+          ],
+          [
+            -70.875636,
+            43.193729
+          ],
+          [
+            -70.875589,
+            43.193668
+          ],
+          [
+            -70.875548,
+            43.193601
+          ],
+          [
+            -70.875487,
+            43.1935148
+          ]
+        ]
+      },
+      "id": "way/245015102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/355453935",
+        "highway": "unclassified",
+        "name": "Hale Street",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8742723,
+            43.1935622
+          ],
+          [
+            -70.8752626,
+            43.1933011
+          ],
+          [
+            -70.8755057,
+            43.193237
+          ]
+        ]
+      },
+      "id": "way/355453935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/372251895",
+        "highway": "primary",
+        "maxspeed": "30 mph",
+        "name": "Central Avenue",
+        "ref": "NH 108",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Central",
+        "tiger:name_base_2": "State Route 108",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8753546,
+            43.1826922
+          ],
+          [
+            -70.8751758,
+            43.1828199
+          ],
+          [
+            -70.875027,
+            43.1829179
+          ],
+          [
+            -70.8741703,
+            43.1834911
+          ],
+          [
+            -70.8740689,
+            43.1835539
+          ],
+          [
+            -70.8738654,
+            43.18368
+          ],
+          [
+            -70.8737812,
+            43.1837596
+          ],
+          [
+            -70.8736586,
+            43.1838806
+          ],
+          [
+            -70.8735822,
+            43.1840114
+          ],
+          [
+            -70.8735745,
+            43.1840288
+          ],
+          [
+            -70.8735284,
+            43.1841335
+          ],
+          [
+            -70.87351,
+            43.1842644
+          ],
+          [
+            -70.8734957,
+            43.184487
+          ],
+          [
+            -70.8735008,
+            43.1845792
+          ],
+          [
+            -70.87352,
+            43.1849228
+          ]
+        ]
+      },
+      "id": "way/372251895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/386422992",
+        "highway": "primary",
+        "maxspeed": "30 mph",
+        "name": "Central Avenue",
+        "ref": "NH 108",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Central",
+        "tiger:name_base_2": "State Route 108",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.87352,
+            43.1849228
+          ],
+          [
+            -70.8735485,
+            43.1850723
+          ],
+          [
+            -70.8735874,
+            43.1853215
+          ],
+          [
+            -70.873616,
+            43.185453
+          ],
+          [
+            -70.8736746,
+            43.1857225
+          ],
+          [
+            -70.873713,
+            43.185899
+          ],
+          [
+            -70.8737543,
+            43.1860886
+          ],
+          [
+            -70.873809,
+            43.1863543
+          ],
+          [
+            -70.8738233,
+            43.1864237
+          ],
+          [
+            -70.8738995,
+            43.1867936
+          ],
+          [
+            -70.8739167,
+            43.1868907
+          ],
+          [
+            -70.8739339,
+            43.1869675
+          ],
+          [
+            -70.874011,
+            43.187361
+          ],
+          [
+            -70.874072,
+            43.187641
+          ],
+          [
+            -70.874104,
+            43.187849
+          ],
+          [
+            -70.87412,
+            43.188137
+          ],
+          [
+            -70.874109,
+            43.188573
+          ],
+          [
+            -70.874105,
+            43.188733
+          ],
+          [
+            -70.874091,
+            43.189021
+          ],
+          [
+            -70.874072,
+            43.189368
+          ],
+          [
+            -70.874049,
+            43.189658
+          ],
+          [
+            -70.873957,
+            43.190425
+          ],
+          [
+            -70.873932,
+            43.190517
+          ],
+          [
+            -70.873887,
+            43.190596
+          ]
+        ]
+      },
+      "id": "way/386422992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/510801137",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Silver Street",
+        "oneway": "no",
+        "ref": "NH 9;NH 155",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Silver",
+        "tiger:name_base_1": "State Route 9",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.879245,
+            43.19072
+          ],
+          [
+            -70.879553,
+            43.190742
+          ],
+          [
+            -70.879944,
+            43.19076
+          ],
+          [
+            -70.8800268,
+            43.1907605
+          ],
+          [
+            -70.880097,
+            43.190761
+          ],
+          [
+            -70.880917,
+            43.190764
+          ],
+          [
+            -70.881308,
+            43.19075
+          ],
+          [
+            -70.881568,
+            43.190731
+          ],
+          [
+            -70.881849,
+            43.190712
+          ],
+          [
+            -70.882237,
+            43.190673
+          ],
+          [
+            -70.883288,
+            43.19057
+          ],
+          [
+            -70.883672,
+            43.19051
+          ]
+        ]
+      },
+      "id": "way/510801137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/765864889",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "30 mph",
+        "name": "Silver Street",
+        "oneway": "no",
+        "ref": "NH 9;NH 155",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Strafford, NH",
+        "tiger:name_base": "Silver",
+        "tiger:name_base_1": "State Route 9",
+        "tiger:name_type": "St",
+        "tiger:reviewed": "no",
+        "tiger:zip_left": "03820",
+        "tiger:zip_right": "03820"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8749809,
+            43.1904959
+          ],
+          [
+            -70.8755692,
+            43.1904423
+          ],
+          [
+            -70.8756762,
+            43.1904349
+          ],
+          [
+            -70.8757874,
+            43.1904291
+          ],
+          [
+            -70.876454,
+            43.190415
+          ],
+          [
+            -70.87665,
+            43.190425
+          ],
+          [
+            -70.877004,
+            43.190457
+          ],
+          [
+            -70.877611,
+            43.190535
+          ],
+          [
+            -70.878015,
+            43.190582
+          ],
+          [
+            -70.878287,
+            43.190615
+          ],
+          [
+            -70.879245,
+            43.19072
+          ]
+        ]
+      },
+      "id": "way/765864889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/765864890",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:both_ways": "1",
+        "lanes:forward": "1",
+        "maxspeed": "30 mph",
+        "name": "Central Avenue",
+        "ref": "NH 4;NH 9;NH 108",
+        "surface": "asphalt",
+        "turn:lanes:both_ways": "left"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8736354,
+            43.1908677
+          ],
+          [
+            -70.87356,
+            43.19095
+          ],
+          [
+            -70.873474,
+            43.191048
+          ],
+          [
+            -70.8733921,
+            43.1911607
+          ],
+          [
+            -70.8733274,
+            43.1912569
+          ],
+          [
+            -70.8732029,
+            43.1914645
+          ],
+          [
+            -70.8731134,
+            43.1916221
+          ]
+        ]
+      },
+      "id": "way/765864890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/765864891",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "30 mph",
+        "name": "Central Avenue",
+        "ref": "NH 4;NH 9;NH 108",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.8731134,
+            43.1916221
+          ],
+          [
+            -70.8730728,
+            43.1916936
+          ],
+          [
+            -70.8730079,
+            43.1918774
+          ],
+          [
+            -70.87302,
+            43.192039
+          ],
+          [
+            -70.87304,
+            43.192182
+          ],
+          [
+            -70.873059,
+            43.192252
+          ],
+          [
+            -70.873121,
+            43.192387
+          ],
+          [
+            -70.873197,
+            43.192518
+          ],
+          [
+            -70.8732645,
+            43.192613
+          ],
+          [
+            -70.873391,
+            43.192791
+          ],
+          [
+            -70.873425,
+            43.192839
+          ],
+          [
+            -70.87353,
+            43.192958
+          ],
+          [
+            -70.873835,
+            43.193229
+          ],
+          [
+            -70.873972,
+            43.193333
+          ],
+          [
+            -70.874184,
+            43.193481
+          ],
+          [
+            -70.8742723,
+            43.1935622
+          ],
+          [
+            -70.874442,
+            43.193738
+          ],
+          [
+            -70.874544,
+            43.193868
+          ],
+          [
+            -70.874585,
+            43.193933
+          ],
+          [
+            -70.87462,
+            43.194
+          ],
+          [
+            -70.874655,
+            43.194083
+          ],
+          [
+            -70.8746804,
+            43.1941847
+          ],
+          [
+            -70.8747225,
+            43.1943703
+          ]
+        ]
+      },
+      "id": "way/765864891"
+    }
+  ]
+}
