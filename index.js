@@ -1,11 +1,9 @@
 let graphulous = require('graphulous');
-const fs = require('fs');
-let turf = require('@turf/turf');
+let { printEdges, printPoints } = require('./print.js');
 
 function geoJsonToGraph(rawData) {
   let graph = new graphulous.Graph();
 
-  // cleanseData();
   buildGraph();
 
   function buildGraph() {
@@ -62,27 +60,27 @@ function geoJsonToGraph(rawData) {
           if (typeof nodes[point] === 'undefined') {
             nodes[point] = { count: 1 };
           } else {
-            nodes[point].count ++;
+            nodes[point].count++;
           }
 
-            //check if it is an end on the old or new edge
-            if(newEdge[i] !== start && newEdge[i] !== end){     
+          //check if it is an end on the old or new edge
+          if (newEdge[i] !== start && newEdge[i] !== end) {
             let e1 = newEdge.slice(i, newEdge.length);
             newEdge.splice(i + 1, newEdge.length);
-            edges.push(e1);         
+            edges.push(e1);
           }
 
-            let pointIndex = edge.indexOf(point);
-            if(pointIndex !== 0 && pointIndex !== edge.length - 1){
+          let pointIndex = edge.indexOf(point);
+          if (pointIndex !== 0 && pointIndex !== edge.length - 1) {
             //remove old edge from edges
-              edges.splice(j, 1);
-              //split up old edge
-              let pointIndex = edge.indexOf(point);
-              let eo1 = edge.slice(0, pointIndex + 1);
-              let eo2 = edge.slice(pointIndex);
-              edges.push(eo1);
-              edges.push(eo2);
-            }
+            edges.splice(j, 1);
+            //split up old edge
+            let pointIndex = edge.indexOf(point);
+            let eo1 = edge.slice(0, pointIndex + 1);
+            let eo2 = edge.slice(pointIndex);
+            edges.push(eo1);
+            edges.push(eo2);
+          }
         }
 
       }
@@ -98,7 +96,7 @@ function geoJsonToGraph(rawData) {
   }
 
   function pointToString(point) {
-    let tmp = roundCoord(point, 1e-7)  
+    let tmp = roundCoord(point, 1e-7)
     return `${tmp[0]},${tmp[1]}`;
   }
 
@@ -109,85 +107,6 @@ function geoJsonToGraph(rawData) {
     ];
   };
 
-
-  function cleanseData() {
-    let acc = []
-    rawData.features.forEach(feature => {
-      let tmp = rawData.features;
-
-      if (acc.findIndex(a => a.properties.name === feature.properties.name) === -1) {
-        let filtered = tmp.filter(t => t.properties.name === feature.properties.name);
-        if (filtered.length > 1) {
-          console.log(feature.properties.name)
-          acc.push(...filtered)
-        }
-      }
-    });
-  }
-
-  // ++++++++++++++ PRINT FUNCTIONS ++++++++++++++
-
-  function printEdges(edges) {
-    let steps = [];
-    edges.forEach((edge) => {
-      let weewewe = []
-      edge.forEach(e => {
-        let pp = e.split(',');
-        weewewe.push([parseFloat(pp[0]), parseFloat(pp[1])]);
-      });
-      steps.push({
-        type: 'Feature',
-        properties: {
-          'stroke-width': 6
-        },
-        geometry: {
-          type: 'LineString',
-          coordinates: weewewe
-        }
-      })
-    });
-    let eeeee = {
-      type: 'FeatureCollection',
-      features: steps
-    };
-
-
-
-
-    fs.writeFile('./edges.json', JSON.stringify(eeeee), function (err) {
-      if (err) return console.log(err);
-      console.log('edges.json');
-    });
-  }
-
-
-  function printPoints(nodes) {
-    points = [];
-    Object.keys(nodes).forEach((element) => {
-      let p = null;
-      var res = element.split(',');
-
-      p = turf.point([parseFloat(res[0]), parseFloat(res[1])]);
-      p.properties = {
-        "marker-color": "#ff2600",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        title: nodes[element].count
-      }
-      points.push(
-        p
-      );
-    });
-    let ret = {
-      "type": "FeatureCollection",
-      "features": points
-    }
-    fs.writeFile('./points.json', JSON.stringify(ret), function (err) {
-      if (err) return console.log(err);
-      console.log('points.json');
-    });
-  }
-  
   return {
     graph
   }
