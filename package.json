@@ -4,7 +4,16 @@
   "description": "Converts GeoJson street data to a graph",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint ./**/*.js",
+    "lint:fix": "eslint ./**/*.js --fix"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/?(*.)+(spec|test).[jt]s?(x)"
+    ]
   },
   "repository": {
     "type": "git",
@@ -20,5 +29,9 @@
     "@turf/distance": "^6.0.1",
     "graphulous": "0.0.2",
     "turf-point": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.4.0"
   }
 }
