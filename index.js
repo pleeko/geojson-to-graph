@@ -1,12 +1,17 @@
 let graphulous = require('graphulous');
 let { printEdges, printPoints } = require('./print.js');
+let distance = require('@turf/distance').default;
+let point = require('turf-point');
 
-function geoJsonToGraph(rawData) {
-  let graph = new graphulous.Graph();
+function geoJsonToGraph(rawData, precision = 1e-7) {
 
-  buildGraph();
+  let graph = new graphulous.MultiGraph();
+  
+  let { nodes, edges } = getEdgesAndNodes();
+  let data = formatData();
+  graph.fromJson(data);
 
-  function buildGraph() {
+  function getEdgesAndNodes() {
     let nodes = {};
     let edges = [];
     rawData.features.forEach(feature => {
@@ -16,10 +21,10 @@ function geoJsonToGraph(rawData) {
         let end = pointToString(feature.geometry.coordinates[feature.geometry.coordinates.length - 1]);
 
         if (typeof nodes[start] === 'undefined') {
-          nodes[start] = { count: 1 };
+          nodes[start] = {};
         }
         if (typeof nodes[end] === 'undefined') {
-          nodes[end] = { count: 1 };
+          nodes[end] = {};
         }
 
         let edge = feature.geometry.coordinates.map(elm => {
@@ -40,6 +45,11 @@ function geoJsonToGraph(rawData) {
 
     printEdges(edges);
     printPoints(nodes);
+
+    return {
+      nodes,
+      edges
+    }
   }
 
 
@@ -58,11 +68,8 @@ function geoJsonToGraph(rawData) {
 
           //check nodes array, if not there add it
           if (typeof nodes[point] === 'undefined') {
-            nodes[point] = { count: 1 };
-          } else {
-            nodes[point].count++;
+            nodes[point] = {};
           }
-
           //check if it is an end on the old or new edge
           if (newEdge[i] !== start && newEdge[i] !== end) {
             let e1 = newEdge.slice(i, newEdge.length);
@@ -96,7 +103,7 @@ function geoJsonToGraph(rawData) {
   }
 
   function pointToString(point) {
-    let tmp = roundCoord(point, 1e-7)
+    let tmp = roundCoord(point, precision)
     return `${tmp[0]},${tmp[1]}`;
   }
 
@@ -107,9 +114,30 @@ function geoJsonToGraph(rawData) {
     ];
   };
 
-  return {
-    graph
+  function formatData() {
+    nodes = Object.keys(nodes).map(n => { return { name: n }; })
+    edges = edges.map(edge => {
+      let length = 0;
+      for (let i = 0; i < edge.length - 1; i++) {
+        let p = edge[i].split(',');
+        p = [parseFloat(p[0]), parseFloat(p[1])]
+        let p2 = edge[i + 1].split(',');
+        p2 = [parseFloat(p2[0]), parseFloat(p2[1])]
+        length += distance(point(p), point(p2), { units: 'miles' });
+      }
+      return {
+        source: edge[0],
+        target: edge[edge.length - 1],
+        data: {
+          path: edge,
+          length
+        }
+      }
+    });
+
+    return { nodes, edges };
   }
+  return { ...graph }
 }
 
 module.exports = geoJsonToGraph;

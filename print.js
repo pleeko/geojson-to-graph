@@ -47,7 +47,7 @@
         "marker-color": "#ff2600",
         "marker-size": "medium",
         "marker-symbol": "",
-        title: nodes[element].count
+        title: element
       }
       points.push(
         p
